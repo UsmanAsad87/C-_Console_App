@@ -37,6 +37,24 @@ namespace First_console_Application
         public static void typeConversion()
         {
             Console.WriteLine("\n\nType Conversion:");
+            int i = 1000;
+            byte b = (byte) i;
+            Console.WriteLine(b);
+
+            try
+            {
+                string number = "1234";
+                int num = Convert.ToInt32(number);
+                byte numByte = Convert.ToByte(number);
+                Console.WriteLine(number);
+            }
+            catch (Exception ex)
+            {
+               Console.WriteLine("The number cannot be converted to byte");
+            }
+            
+
+
         }
     }
 }
