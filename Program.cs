@@ -1,13 +1,16 @@
-﻿//// See https://aka.ms/new-console-template for more information
-//using System;
+﻿
+using System;
 
-//namespace Program
-//{
-//    class Program
-//    {
-//    static void Main(string[] args)
-//        {
-//            Console.WriteLine("Hello C# World");
-//        }
-//    }
-//}
+namespace First_console_Application
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hi, lets start C#");
+            HelloWorld.helloWorld();
+            primative_datatypes.dataTypes();
+            primative_datatypes.limits();
+        }
+    }
+}

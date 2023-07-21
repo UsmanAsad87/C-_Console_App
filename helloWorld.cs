@@ -1,13 +1,14 @@
-﻿
-using System;
+﻿using System;
 
-namespace HelloWorld
+namespace First_console_Application
 {
-    class Program
+    class HelloWorld
     {
-        static void Main(string[] args)
+        public static void helloWorld()
         {
             Console.WriteLine("Hello C# World");
+           
+            
         }
     }
 }
