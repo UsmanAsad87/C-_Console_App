@@ -12,6 +12,7 @@ namespace First_console_Application
             primative_datatypes.dataTypes();
             primative_datatypes.limits();
             primative_datatypes.typeConversion();
+            primative_datatypes.operators();
         }
     }
 }

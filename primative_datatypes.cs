@@ -51,8 +51,31 @@ namespace First_console_Application
             catch (Exception ex)
             {
                Console.WriteLine("The number cannot be converted to byte");
-            }
+            } 
             
+
+
+        }
+        public static void operators()
+        {
+            Console.WriteLine("\n\nOperators:");
+            var a = 1;
+            var b = 5;
+            var c = 37;
+
+            try
+            {
+                Console.WriteLine(a+b*c);
+                Console.WriteLine(c/b+a);
+                Console.WriteLine(c / (float)b + a);
+                Console.WriteLine(c>b || c==a);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("The number cannot be converted to byte");
+            }
+
 
 
         }
